@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("IS_PROD") != "true"
 
-ALLOWED_HOSTS = ["schedule-stock-scraper-api.herokuapp.com"]
+ALLOWED_HOSTS = ["schedule-stock-scraping-api.herokuapp.com"]
 
 
 # Application definition
